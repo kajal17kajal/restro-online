@@ -1,0 +1,151 @@
+@media screen and (min-width: 1367px){
+.login{
+  display: none;
+}
+.signin_icon{
+  display:none;
+}
+header .main_header .logo-header{
+  display: none;
+}
+}
+@media screen and (max-width: 1366px){
+
+}
+@media screen and (max-width: 1199px){
+
+}
+@media screen and (max-width: 991px){
+  header .main_header .logo{
+    display: none;
+  }
+  header .main_header .logo-header{
+    display: flex;
+  }
+  header .main_header .signin{
+    display: none;
+  }
+  header .main_header .login{
+    display: flex;
+  }
+  header .main_header .navbar-collapse{
+    height: 100vh;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+    padding: 30px;
+}
+header .main_header .signin_icon{
+  display: flex;
+}
+header .main_header .signin_icon button.x-123{
+    display: block;
+    z-index: 99;
+    color: #000;
+    background-color: #fff;
+    font-size:16px;
+}
+header .navbar .navbar-nav .dropdown-menu{
+  position: absolute;
+  min-width: auto;
+  left: auto;
+  right: 0;
+}
+.signin_icon{
+    display: flex;
+    justify-content: space-between;
+}
+  .feature .feature_img{
+    display: none;
+  }
+  .feature .app_feature{
+    display: block;
+  }
+  .template .template_example{
+    margin-right: 0 ;
+  }
+  .template .custom_template{
+    margin-right: 0;
+  }
+  .management .web .mobile_info{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .management .web .mobile_info .web_content{
+    margin-top: 50px;
+  }
+  .value .our_value .super, .support .our_support .jumping{
+    padding: 15px 40px;
+    margin-bottom: 55px;
+  }
+  .value{
+    margin-top: 60px;
+  }
+  .support{
+    padding: 20px;
+    margin-bottom:40px;
+  }
+  .value .row .superman{
+    order: 2;
+  }
+  .support .row .jumpingboy{
+    order: 2;
+  }
+  .address_detail{
+    margin: 60px 0;
+  }
+  footer .footer_info .vr_line::after{
+     width: 0;
+   }
+  
+}
+@media screen and (max-width: 767px){
+  .review .outer_div .item .story_image{
+    border-radius: 100%;
+    width: 50px;
+  }
+  .contact_us .contact_work{
+    padding: 0;
+    margin-bottom:50px;
+  }
+}
+@media screen and (max-width: 575px){
+  .review .outer_div .item .comment h6{
+    line-height: 30px;
+  }
+  .review .outer_div .item .comment .vr{
+    height: 35px;
+  }
+  .question{
+    margin: 60px 0;
+  }
+}
+@media screen and (max-width: 430px){
+  .btn_primary{
+    margin-bottom: 10px;
+  }
+  .address_detail .location, .address_detail .msg, .address_detail .phoneno{
+    width: 70px;
+    height: 70px;
+  }
+  .address_detail .location::after{
+    width: 90px;
+    height: 72%;
+    top:-11px;
+  }
+  .address_detail .msg::after{
+    height: 127%;
+    width: 50px;
+    right: -11px;
+  }
+  .address_detail .phoneno::after{
+    width: 90px;
+    height: 72%;
+    bottom: -11px;
+  }
+ 
+}
